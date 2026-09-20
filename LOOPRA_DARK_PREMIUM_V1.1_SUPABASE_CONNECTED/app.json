@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Loopra",
+    "slug": "loopra",
+    "version": "0.1.0",
+    "orientation": "default",
+    "scheme": "loopra",
+    "userInterfaceStyle": "dark",
+    "plugins": ["expo-router"],
+    "web": { "bundler": "metro", "output": "single" },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "ma.loopra.app" },
+    "android": { "package": "ma.loopra.app" }
+  }
+}
